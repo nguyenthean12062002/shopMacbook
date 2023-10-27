@@ -1,0 +1,48 @@
+.button {
+  border: none;
+  padding: 4px 6px;
+  min-width: 78px;
+  max-width: 170px;
+  height: 32px;
+  border-radius: 8px;
+}
+.children {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// size
+.small {
+  //   min-width: 80px;
+}
+.normal {
+  background-color: var(--white-color);
+  border-radius: 12px;
+}
+.big {
+  width: 90px;
+}
+//preperty
+.hover {
+  &:hover {
+    color: var(--color-black99);
+  }
+}
+//header des-btn
+.headerDes {
+  background-color: var(--white-color);
+  color: var(--color-black);
+}
+
+// color
+.colorWhite {
+  color: white;
+}
+
+//background
+.backgrWhite {
+  background-color: var(--white-color);
+  max-width: 50px;
+  font-size: 0.8rem;
+  padding: 2px;
+}

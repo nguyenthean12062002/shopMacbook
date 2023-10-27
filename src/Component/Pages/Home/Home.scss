@@ -1,0 +1,28 @@
+.home {
+  width: 100%;
+  .home__title {
+    text-align: center;
+    padding: 24px;
+    color: var(--color-black99);
+    font-size: 0.95rem;
+  }
+  .home__wrapper {
+    width: 100%;
+    font-size: 1rem;
+    color: var(--color-black);
+    .item {
+      width: 100%;
+      .name {
+        text-align: center;
+        padding: var(--padding-main);
+      }
+      .pictures {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .first {
+    }
+  }
+}

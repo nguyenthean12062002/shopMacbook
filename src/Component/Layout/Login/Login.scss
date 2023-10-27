@@ -1,0 +1,83 @@
+.login {
+  width: 100%;
+  height: calc(100vh - 200px);
+  .login__title {
+    padding: 24px;
+    font-size: 1.4rem;
+  }
+  .login__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .login__form {
+      width: 100%;
+      text-align: center;
+      .form__title {
+        text-align: center;
+        padding-bottom: 24px;
+        color: var(--color-black99);
+        font-size: 1.4rem;
+        font-weight: 700;
+      }
+      .form__input {
+        width: 100%;
+        position: relative;
+      }
+      .inputClass {
+        font-size: 0.9rem;
+        font-weight: 350;
+        width: 30%;
+        height: 44px;
+        margin: 12px;
+        border: 0.5px solid var(--color-black99);
+        padding: 4px 3px;
+        &:focus {
+          border: 2px solid var(--color-blue);
+        }
+      }
+      .form__input .inputClass:not(:placeholder-shown) + .input__label,
+      .form__input .inputCLass:focus + .input__label {
+        top: -8px;
+        left: 35%;
+        font-size: 1rem;
+        color: var(--color-black);
+      }
+      .input__label {
+        position: absolute;
+        top: 38%;
+        left: 36%;
+        font-size: 0.9rem;
+        transition: all 0.2s ease;
+      }
+      font-size: 0.9rem;
+      color: var(--color-black99);
+      .login {
+        min-width: 30%;
+        height: 40px;
+        margin: 12px 0px;
+        background-color: var(--backgr-color2);
+      }
+      .form__sub {
+        .sub__remember {
+          margin: 12px;
+          font-size: 1rem;
+          span {
+            color: var(--color-black99);
+          }
+        }
+        .link {
+          color: var(--color-blue2);
+          font-weight: 400;
+        }
+        .sub__createAccount {
+          color: var(--color-black99);
+          .link {
+            font-size: 1rem;
+            color: var(--color-blue2);
+            font-weight: 350;
+          }
+        }
+      }
+    }
+  }
+}
